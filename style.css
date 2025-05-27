@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    justify-content: space-evenly;
+    align-items: center;
+    display: inline-flex;
+    height: 100vh; 
+}
+.video-agricultor{
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+video{
+    position: fixed;
+    top: 0;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.mascara-video{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    position: fixed;
+  background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+     z-index: -1;
+}
+
+
+p{
+    color: azure;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 20px;
+    background: #c51111;
+    color: white;
+    border-radius: 5px;
+    width: 200px;
+height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+    border:none;
+}
+
+
+section {
+    width: 40%;
+}
+
+.logo-agricultor {
+    width: 350px;
+}
+
+.logo-mario{
+    
+    height: 300px;
+}
+
+.fale-conosco {
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    gap: 10px;
+    padding: 40px;
+    margin: 15px;
+    border-radius: 5px;
+    align-items: center;
+    left: -280px;
+    z-index: 4;
+    transition-duration: 2s;
+}
+
+input{
+    padding: 10px;
+    
+}
+
+.mascara-form{
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    visibility: hidden;
+    z-index: 3;
+}
+
+
+
